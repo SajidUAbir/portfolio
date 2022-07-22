@@ -454,19 +454,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 80px;
     color: #333;
+    padding-bottom: 35px;
 }
 .ban_text h2{
     font-size: 30px;
-    padding: 25px 0 25px;
+    margin: 0 0 25px;
     color: #444;
-}
-.ban_text p{
-    padding: 0px 70px 0 0px;
-    line-height: 24px;
-    font-size: 16px;
-    text-align: justify-all;
-    color: #333;
-    display: block;
 }
 
 .ban_btn {
@@ -512,7 +505,6 @@ body {
 .btn_2 {
     background-color: #ff5858;
     color: #fff;
-    
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .btn_2:hover {
@@ -731,19 +723,6 @@ body {
     -o-transition: 0.8s;
 }
 
-/* .work_item:hover .work_img img{
-    transform: scale(1.2, 1.4);
-    -webkit-transform: scale(1.2, 1.4);
-    -moz-transform: scale(1.2, 1.4);
-    -ms-transform: scale(1.2, 1.4);
-    -o-transform: scale(1.2, 1.4);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-} */
-
 .work_img a {
     position: absolute;
     left: 0;
@@ -757,18 +736,9 @@ body {
     position: absolute;
     bottom: 0%;
     left: 0%;
-    /* opacity: 0; */
     transition: 0.3s;
     border-radius: 0px 0px 10px 10px;
-    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
 }
-
-.work_item:hover .work_overly {
-    opacity: 1;
-    height: 35%;
-    
-}
-
 
 .work_text {
     color: #444;
@@ -780,7 +750,7 @@ body {
     padding: 0 50px;
 }
 .work_text h4{
-    padding: 0px 0px 20px;
+    padding: 10px 0;
     font-size: 24px;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
